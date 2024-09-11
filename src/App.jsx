@@ -47,7 +47,7 @@ function App() {
 				onSortChange={handleSortChange}
 			/>
 			<main className='main-content'>
-				<h1 className='heading'>Property Listing</h1>
+				<h1 className='heading'>Property Hub</h1>
 				<ProductList products={sortedProducts} />
 			</main>
 		</div>

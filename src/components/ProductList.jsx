@@ -5,7 +5,7 @@ const ProductList = ({ products }) => {
 	return (
 		<div className='product-list'>
 			{products.length === 0 ? (
-				<p className='no-products'>No products found.</p>
+				<p className='no-products'>Oops. No products found.</p>
 			) : (
 				products.map((product) => (
 					<div key={product.id} className='product-card'>
